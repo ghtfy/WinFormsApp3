@@ -7,6 +7,7 @@ namespace WinFormsApp3
         public Form1()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
