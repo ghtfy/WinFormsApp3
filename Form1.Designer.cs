@@ -35,7 +35,6 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            btnGitHub = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -109,16 +108,6 @@
             label4.TabIndex = 5;
             label4.Text = "kkw4987@naver.com";
             // 
-            // btnGitHub
-            // 
-            btnGitHub.Location = new Point(352, 234);
-            btnGitHub.Name = "btnGitHub";
-            btnGitHub.Size = new Size(95, 25);
-            btnGitHub.TabIndex = 6;
-            btnGitHub.Text = "GitHub";
-            btnGitHub.UseVisualStyleBackColor = true;
-            btnGitHub.Click += btnGitHub_Click;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -130,7 +119,6 @@
             Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
-            Controls.Add(btnGitHub);
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -143,7 +131,6 @@
         private PictureBox pictureBox1;
         private Label label1;
         private Button button1;
-        private Button btnGitHub;
         private Label label2;
         private Label label3;
         private Label label4;
