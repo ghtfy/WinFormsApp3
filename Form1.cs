@@ -1,4 +1,5 @@
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
+using System.Diagnostics;
 //커밋테스트
 namespace WinFormsApp3
 {
@@ -21,9 +22,29 @@ namespace WinFormsApp3
         }
 
         private void button1_Click(object sender, EventArgs e)
-        { Random rand = new Random(); 
-            this.BackColor = Color.FromArgb(rand.Next(200), rand.Next(200), rand.Next(256)); 
+        {
+            Random rand = new Random();
+            this.BackColor = Color.FromArgb(rand.Next(200), rand.Next(200), rand.Next(256));
         }
-}
-    
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var psi = new ProcessStartInfo("https://github.com/ghtfy")
+            {
+                UseShellExecute = true
+            };
+            Process.Start(psi);
+        }
+    }
+
 }
