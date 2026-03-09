@@ -24,7 +24,7 @@
 ### 3️⃣ 프로필 전환
 `사진변경` 버튼을 클릭하면 프로필 이미지가 변경됩니다.
 
-![change-profile](./images/change-profile.gif)
+![Image](https://github.com/user-attachments/assets/8e171ec1-7b25-4349-bb74-ab0a7375120a)
 
 ---
 
