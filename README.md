@@ -17,7 +17,7 @@
 ### 2️⃣ SNS 연결
 `GitHub` 버튼을 클릭하면 GitHub 프로필로 이동합니다.
 
-🔗 https://github.com/your-id
+![Image](https://github.com/user-attachments/assets/74e86ce2-12ad-435f-8db9-3733626f38ab)
 
 ---
 
